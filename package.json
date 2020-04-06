@@ -2,8 +2,10 @@
   "name": "github-finder",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Rajanpatel123/github-finder-react-project",
   "dependencies": {
     "axios": "^0.18.1",
+    "gh-pages": "^2.2.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.0",
@@ -13,7 +15,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
