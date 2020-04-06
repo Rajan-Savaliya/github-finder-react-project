@@ -64,4 +64,4 @@ private is include not need to add it
 > `git add -A`
 > `git commit -m "bla bla bla"`
 
-> `git push origin master`
+> `git push origin master`# github-finder-react-app-code
