@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
+
 /* Global Styles */
 :root {
-  --primary-color: #dc3545;
-  --dark-color: #333333;
-  --light-color: #f4f4f4;
-  --danger-color: #dc3545;
-  --success-color: #28a745;
+  --primary-color: linear-gradient(to right, #ff9472, #f2709c);
+  --dark-color:background: linear-gradient(to right, #232526, #414345);
+  --light-color: linear-gradient(to right, #ffefba, #ffffff);
+  --danger-color:linear-gradient(to right, #ff5858, #f857a6);
+  --success-color: linear-gradient(to right, #93EDC7, #1CD8D2);
 }
 
 * {

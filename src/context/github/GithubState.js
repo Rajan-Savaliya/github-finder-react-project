@@ -22,6 +22,7 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 const GithubState = props => {
+  
   const initialState = {
     users: [],
     user: {},
@@ -39,7 +40,7 @@ const GithubState = props => {
       `https://api.github.com/search/users?q=${text}&client_id=${githubClientId}&client_secret=${githubClientSecret}`
     );
 
-    dispatch({
+    dispatch({ 
       type: SEARCH_USERS,
       payload: res.data.items
     });
