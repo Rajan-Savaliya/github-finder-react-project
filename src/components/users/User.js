@@ -1,3 +1,4 @@
+/*eslint-disable */
 import React, { Fragment, useEffect, useContext } from 'react';
 import Spinner from '../layout/Spinner';
 import Repos from '../repos/Repos';
@@ -9,9 +10,9 @@ const User = ({ match }) => {
 
   const { getUser, loading, user, repos, getUserRepos } = githubContext;
 
-  useEffect(() => {
+  useEffect(() => { //!-->this app is load it && useEffect are apply it==>1 time page render
     getUser(match.params.login);  // match.params.login ==> username  ex:: rajan , yash etc..
-    getUserRepos(match.params.login);
+    getUserRepos(match.params.login); //!-->this match.patams.login==>that is come form==> url-link
     // eslint-disable-next-line
   }, []);
 
@@ -62,7 +63,7 @@ const User = ({ match }) => {
               <p>{bio}</p>
             </Fragment>
           )}
-          <a href={html_url} className='btn btn-dark my-1'>
+          <a href={html_url} target="_blank" className='btn btn-dark my-1'>
             Visit Github Profile
           </a>
           <ul>

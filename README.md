@@ -65,3 +65,6 @@ private is include not need to add it
 > `git commit -m "bla bla bla"`
 
 > `git push origin master`# github-finder-react-app-code
+
+
+> statice site deploy in==>netlify//github//firebase anyplace at all.....

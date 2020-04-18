@@ -3,8 +3,8 @@
 
 /* Global Styles */
 :root {
-  --primary-color: linear-gradient(to right, #ff9472, #f2709c);
-  --dark-color:background: linear-gradient(to right, #232526, #414345);
+  --primary-color: linear-gradient(to top, #e72d4c, #aa25c5);
+  --dark-color: linear-gradient(to right, #3b3e3f, #414345);
   --light-color: linear-gradient(to right, #ffefba, #ffffff);
   --danger-color:linear-gradient(to right, #ff5858, #f857a6);
   --success-color: linear-gradient(to right, #93EDC7, #1CD8D2);
